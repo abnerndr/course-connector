@@ -1,0 +1,15 @@
+{
+  "name": "pace-workspace",
+  "private": true,
+  "packageManager": "pnpm@10.28.0",
+  "scripts": {
+    "dev": "pnpm --filter course-connector-pace dev",
+    "build": "pnpm --filter course-connector-pace build",
+    "check": "pnpm -r check",
+    "test": "pnpm --filter @pace/core test",
+    "cli": "pnpm --filter @pace/core cli"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.10"
+  }
+}

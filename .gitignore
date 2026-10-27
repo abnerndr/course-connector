@@ -1,0 +1,10 @@
+node_modules/
+.next/
+.env*
+!.env.example
+.pace/
+*.tsbuildinfo
+
+
+# MCP mantido localmente; será versionado em um repositório separado.
+/mcp/
